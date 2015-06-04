@@ -4,6 +4,8 @@
 -vagrant up
 -vagrant ssh
 -use sudo apt-get install python-sqlalchemy to install sqlalchemy
+-use sudo apt-get install python-pip
+-use  sudo pip install Flask
 
 **Note: If you already have a vagrant machine installed from previous Udacity courses skip to the 'Fetch the Source Code and VM Configuration' section**
 
