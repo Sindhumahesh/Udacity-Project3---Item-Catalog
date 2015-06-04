@@ -1,4 +1,5 @@
 Description:
+
            - This project provides a list of restaurants and their menus.
            
            - Authenticated users are allowed to add,edit& delete menu items and restaurants.
@@ -8,6 +9,18 @@ Description:
            - A google plus signin is added to the application using OAuth2.0.
            
            
+Installations :
+
+             - Vagrant and VirtualBox.
+             
+             - git.
+             
+             - github for desktop.
+             
+             - python.
+             
+             
+             
 -open terminal
 -change directory
 -vagrant init
