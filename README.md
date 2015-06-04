@@ -22,7 +22,25 @@ Installations :
             - github for desktop.
              
             - python.
+            
              
+            - Visit http://console.developers.google.com and login to your google account.
+            
+            - Click Create project and name your project.google automatically creates a project id.
+            
+            - Once the project is created u will be redirected to project dashboard.
+            
+            - Now click on Apis&auth and select credentials.
+            
+            - In the OAuth section click create new client ID and select web application and then click configure consent screen.
+            
+            - In the consent screen provide email adress and product name and save changes and then click create client ID.
+            
+            - Now we will get client id for web application.
+            
+            - click on download json to download the json file.call it client_secrets.json and store in project.
+            
+            - In login.html give the client id to data-clientid = "your client id".
 
 How to run the project in terminal(for mac)? :
 
