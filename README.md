@@ -1,6 +1,9 @@
-# OAuth2.0
-Starter Code for Auth&amp;Auth course
-# Installing the Vagrant VM for ud330 - Authentication & Authorization
+-open terminal
+-change directory
+-vagrant init
+-vagrant up
+-vagrant ssh
+-use sudo apt-get install python-sqlalchemy to install sqlalchemy
 
 **Note: If you already have a vagrant machine installed from previous Udacity courses skip to the 'Fetch the Source Code and VM Configuration' section**
 
