@@ -65,7 +65,6 @@ def gconnect():
     response = h.request(url, 'GET')[1]
     str_response = response.decode('utf-8')
     result = json.loads(str_response)
-
     # If there was an error in the access token info, abort.
     if result.get('error') is not None:
         response = make_response(json.dumps(result.get('error')), 500)
@@ -150,8 +149,6 @@ def getUserID(email):
         return None
 
 # DISCONNECT - Revoke a current user's token and reset their login_session
-
-
 @app.route('/gdisconnect')
 def gdisconnect():
         # Only disconnect a connected user.
@@ -215,8 +212,6 @@ def showRestaurants():
         return render_template('restaurants.html', restaurants=restaurants)
 
 # Create a new restaurant
-
-
 @app.route('/restaurant/new/', methods=['GET', 'POST'])
 def newRestaurant():
     if 'username' not in login_session:
