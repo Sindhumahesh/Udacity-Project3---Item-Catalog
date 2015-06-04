@@ -45,5 +45,7 @@ How to run the project in terminal(for mac)? :
             - type python lotsofmenus.py to populate the database with restaurants and menu items. 
             
             - Type python project.py to run the Flask web server.
+            
+            - In your browser visit http://localhost:5000 to view the restaurant menu app.
 
 
