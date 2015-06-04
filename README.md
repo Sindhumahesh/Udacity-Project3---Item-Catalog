@@ -11,26 +11,24 @@ Description:
            
 Installations :
 
-             - Vagrant and VirtualBox.
+            - Vagrant and VirtualBox.
              
-             - git.
+            - git.
              
-             - github for desktop.
+            - github for desktop.
              
-             - python.
-             
-             
+            - python.
              
 
 How to run the project in terminal(for mac)? :
 
-             - vagrant init hashicorp/precise32.
+            - vagrant init hashicorp/precise32.
              
-             - vagrant up.
+            - vagrant up.
              
-             - vagrant ssh.
+            - vagrant ssh.
              
-             - cd /vagrant (This will take you to the shared folder between your virtual machine and host machine).
+            - cd /vagrant (This will take you to the shared folder between your virtual machine and host machine).
              
             - use sudo apt-get install python-sqlalchemy to install sqlalchemy.
             
