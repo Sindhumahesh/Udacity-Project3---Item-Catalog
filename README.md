@@ -47,13 +47,3 @@ How to run the project in terminal(for mac)? :
             - Type python project.py to run the Flask web server.
 
 
-            
-
-
-
-1)python database_setup.py - initializes the database.
-
-2)python lotsofmenus.py - populates the database with restaurants and menu items.
-
-3)python project.py - Runs the Flask web server. 
-
