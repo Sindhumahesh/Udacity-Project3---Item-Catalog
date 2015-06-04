@@ -1,3 +1,13 @@
+Description:
+           - This project provides a list of restaurants and their menus.
+           
+           - Authenticated users are allowed to add,edit& delete menu items and restaurants.
+           
+           - OAuth an open standard for authorization specifies a process for resource owners to authorize third-party access to their server resources without sharing their credentials.
+           
+           - A google plus signin is added to the application using OAuth2.0.
+           
+           
 -open terminal
 -change directory
 -vagrant init
