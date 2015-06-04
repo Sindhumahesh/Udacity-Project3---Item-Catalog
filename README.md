@@ -22,7 +22,9 @@ Installations :
             - github for desktop.
              
             - python.
-            
+       
+How to connect with google?:
+
              
             - Visit http://console.developers.google.com and login to your google account.
             
@@ -41,22 +43,26 @@ Installations :
             - click on download json to download the json file.call it client_secrets.json and store in project.
             
             - In login.html give the client id to data-clientid = "your client id".
+            
+How to configure your vagrant environment:
 
+           - vagrant init hashicorp/precise32.
+           
+            - use sudo apt-get install python-sqlalchemy to install sqlalchemy.
+            
+            - use sudo apt-get install python-pip to install pip.
+            
+            - use sudo apt-get install Flask to install Flask.
+            
 How to run the project in terminal(for mac)? :
 
-            - vagrant init hashicorp/precise32.
              
             - vagrant up.
              
             - vagrant ssh.
              
             - cd /vagrant (This will take you to the shared folder between your virtual machine and host machine).
-             
-            - use sudo apt-get install python-sqlalchemy to install sqlalchemy.
             
-            - use sudo apt-get install python-pip to install pip.
-            
-            - use sudo apt-get install Flask to install Flask.
             
             - Type ls to ensure that you are inside the directory that contains project.py, database_setup.py, and two directories  'templates' and 'static'.
             
